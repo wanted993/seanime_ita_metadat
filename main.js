@@ -16,6 +16,7 @@ const CACHE_TTL_MS = 30 * 24 * 60 * 60 * 1000 // 30 giorni
 function init() {
 
   $app.onGetAnime(async (e) => {
+    e.anime.description = "TEST ITALIANO";
     try {
       if (!e.anime) { e.next(); return }
 
