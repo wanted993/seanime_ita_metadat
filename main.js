@@ -67,7 +67,7 @@ function init() {
       }
 
       const title = e.anime.title?.romaji || e.anime.title?.english || e.anime.title?.native
-      let translated = title ? await fetchFromWikipediaIT(title) : null
+      let translated = "TEST WIKIPEDIA"
 
       if (!translated && e.anime.description) {
         translated = await fetchFromMyMemory(stripHtml(e.anime.description))
