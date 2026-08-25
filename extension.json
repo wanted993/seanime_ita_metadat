@@ -1,16 +1,21 @@
 {
   "id": "it-anime-translate",
   "name": "Traduttore Italiano Descrizioni Anime",
-  "description": "Traduce in italiano le descrizioni degli anime usando Wikipedia IT (fonte primaria) e MyMemory (fallback), con cache persistente tramite $storage.",
-  "manifestURI": "https://raw.githubusercontent.com/wanted993/seanime_ita_metadat/refs/heads/main/main.js",
   "version": "1.0.0",
-  "author": "tu",
+  "manifestUri": "https://raw.githubusercontent.com/wanted993/seanime_ita_metadat/refs/heads/main/main.js",
+  "language": "js",
   "type": "plugin",
-  "language": "javascript",
-  "lang": "it",
-  "payloadURI": "https://raw.githubusercontent.com/wanted993/seanime_ita_metadat/refs/heads/main/main.js",
-  "permissions": [
-    "storage",
-    "network"
-  ]
+  "author": "tu",
+  "description": "Traduce in italiano le descrizioni degli anime usando Wikipedia IT (fonte primaria) e MyMemory (fallback), con cache persistente tramite $storage.",
+  "payloadUri": "https://raw.githubusercontent.com/wanted993/seanime_ita_metadat/refs/heads/main/main.js",
+  "plugin": {
+    "version": "1.0.0",
+    "permissions": {
+      "scopes": ["storage", "network"],
+      "allowedHosts": [
+        "it.wikipedia.org",
+        "api.mymemory.translated.net"
+      ]
+    }
+  }
 }
