@@ -53,7 +53,6 @@ function init() {
   })
 
   $app.onGetAnimeDetails(async (e) => {
-    e.anime.description = "TEST ITALIANO";
     try {
       if (!e.anime) { e.next(); return }
 
