@@ -9,10 +9,8 @@
   "language": "javascript",
   "lang": "it",
   "payloadURI": "https://raw.githubusercontent.com/wanted993/seanime_ita_metadat/refs/heads/main/main.js",
-  "plugin": {
-    "permissions": [
-      "storage",
-      "network"
-    ]
-  }
+  "permissions": [
+    "storage",
+    "network"
+  ]
 }
