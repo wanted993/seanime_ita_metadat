@@ -2,7 +2,7 @@
   "id": "it-anime-translate",
   "name": "Traduttore Italiano Descrizioni Anime",
   "version": "1.0.0",
-  "manifestUri": "https://raw.githubusercontent.com/TUO-USERNAME/seanime-it-translate/main/extension.json",
+  "manifestUri": "https://raw.githubusercontent.com/wanted993/seanime_ita_metadat/refs/heads/main/main.js",
   "language": "js",
   "type": "plugin",
   "author": "tu",
