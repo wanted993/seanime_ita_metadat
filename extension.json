@@ -9,7 +9,7 @@
   "description": "Traduce in italiano le descrizioni degli anime usando Wikipedia IT (fonte primaria) e MyMemory (fallback), con cache persistente tramite $storage.",
   "payloadUri": "https://raw.githubusercontent.com/wanted993/seanime_ita_metadat/refs/heads/main/main.js",
   "plugin": {
-    "version": "1.0.0",
+    "version": "1",
     "permissions": {
       "scopes": ["storage", "network"],
       "allowedHosts": [
