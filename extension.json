@@ -7,7 +7,7 @@
   "type": "plugin",
   "author": "tu",
   "description": "Traduce in italiano le descrizioni degli anime usando Wikipedia IT (fonte primaria) e MyMemory (fallback), con cache persistente tramite $storage.",
-  "payloadUri": "https://raw.githubusercontent.com/TUO-USERNAME/seanime-it-translate/main/main.js",
+  "payloadUri": "https://raw.githubusercontent.com/wanted993/seanime_ita_metadat/refs/heads/main/main.js",
   "permissions": {
     "scopes": ["storage", "network"],
     "allowedHosts": [
