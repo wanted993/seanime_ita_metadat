@@ -1,7 +1,7 @@
 {
   "id": "it-anime-translate",
   "name": "Traduttore Italiano Descrizioni Anime",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "manifestURI": "https://raw.githubusercontent.com/wanted993/seanime_ita_metadat/refs/heads/main/extension.json",
   "language": "javascript",
   "type": "plugin",
